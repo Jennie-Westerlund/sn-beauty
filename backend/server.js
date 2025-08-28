@@ -232,7 +232,7 @@ app.post("/create-checkout-session", cors(), async (req, res) => {
             display_name: "Standard Frakt",
             delivery_estimate: {
               minimum: {
-                unit: "business_day",
+                unit: "business_day", 
                 value: 1,
               },
               maximum: {
